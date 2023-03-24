@@ -1,4 +1,12 @@
 import java.util.Scanner;
+class Main{
+    public static void main(String[] args) {
+        calculator rec=new calculator();
+        rec.getData();
+        rec.computeField();
+        rec.fieldDisplay();
+    }
+}
  class calculator {
      double length,width,area;
      public void getData(){
@@ -19,12 +27,5 @@ import java.util.Scanner;
      }
 
 }
-class Main{
-    public static void main(String[] args) {
-        calculator rectangle=new calculator();
-        rectangle.getData();
-        rectangle.computeField();
-        rectangle.fieldDisplay();
-    }
-}
+
 
